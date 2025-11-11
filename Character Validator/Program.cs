@@ -26,12 +26,9 @@ while (intelligence < 1 || intelligence > 20)
     Console.WriteLine("An error has occured, please re-submit your intelligence and ensure it is between 1-20.");
     intelligence = Convert.ToInt32(Console.ReadLine());
 }
+
+strengthBonus = (strength - 10) / 2;
+Console.WriteLine("Strength Bonus: " + strengthBonus);
+
 intelligenceBonus = (intelligence - 10) / 2;
 Console.WriteLine("Intelligence Bonus: " + intelligenceBonus);
-
-// Calculations.
-if (strengthBonus > 1)
-    Console.WriteLine("Your character is qualified to be a Warrior!");
-
-if (intelligenceBonus > 1)
-    Console.WriteLine("Your character is qualified to be a Mage!");
