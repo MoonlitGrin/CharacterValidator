@@ -15,7 +15,7 @@ while (strength < 1 || strength > 20)
     strength = Convert.ToInt32(Console.ReadLine());
 }
 bonusStrength = (strength - 10) / 2;
-Console.WriteLine("Strength Bonus:" + bonusStrength);
+Console.WriteLine("Strength Bonus: " + bonusStrength);
 
 
 Console.WriteLine("Please submit a number between 1-20 for your character's intelligence.");
@@ -27,7 +27,7 @@ while (intelligence < 1 || intelligence > 20)
     intelligence = Convert.ToInt32(Console.ReadLine());
 }
 bonusIntelligence = (intelligence - 10) / 2;
-Console.WriteLine("Intelligence Bonus:" + bonusIntelligence);
+Console.WriteLine("Intelligence Bonus: " + bonusIntelligence);
 // Calculations.
 if (bonusStrength > 1)
     Console.WriteLine("Your character is qualified to be a Warrior!");
