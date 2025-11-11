@@ -14,8 +14,6 @@ while (strength < 1 || strength > 20)
     Console.WriteLine("An error has occured, please re-sumbit your strength and ensure it is between 1-20.");
     strength = Convert.ToInt32(Console.ReadLine());
 }
-strengthBonus = (strength - 10) / 2;
-Console.WriteLine("Strength Bonus: " + strengthBonus);
 
 
 Console.WriteLine("Please submit a number between 1-20 for your character's intelligence.");
