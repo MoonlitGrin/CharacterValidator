@@ -17,6 +17,8 @@ while(strengthValid == false)
 {
     Console.WriteLine("An error has occured, please re-sumbit your strength and ensure it is between 1-20.");
     strength = Convert.ToInt32(Console.ReadLine());
+
+    strengthValid = (strength >= 1 && strength <= 20);
 }
 
 
@@ -29,6 +31,8 @@ while(intelligenceValid == false)
 {
     Console.WriteLine("An error has occured, please re-submit your intelligence and ensure it is between 1-20.");
     intelligence = Convert.ToInt32(Console.ReadLine());
+
+    intelligenceValid = (intelligence >= 1 && intelligence <= 20);
 }
 
 
