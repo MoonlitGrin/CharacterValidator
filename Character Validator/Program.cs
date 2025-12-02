@@ -13,7 +13,7 @@ strength = Convert.ToInt32(Console.ReadLine());
 
 bool strengthValid = strength >= 1 && strength <= 20;
 
-if(strengthValid == false) 
+while(strengthValid == false) 
 {
     Console.WriteLine("An error has occured, please re-sumbit your strength and ensure it is between 1-20.");
     strength = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +25,7 @@ intelligence = Convert.ToInt32(Console.ReadLine());
 
 bool intelligenceValid = intelligence >= 1 && intelligence <= 20;
 
-if(intelligenceValid == false)
+while(intelligenceValid == false)
 {
     Console.WriteLine("An error has occured, please re-submit your intelligence and ensure it is between 1-20.");
     intelligence = Convert.ToInt32(Console.ReadLine());
